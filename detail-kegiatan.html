@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail Kegiatan - Kecamatan Pakong</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <nav id="navbar"></nav>
+
+        <main class="container" style="padding-top: 120px; padding-bottom: var(--spacing-xl);">
+            <div id="detail-content">
+                <!-- Content will be loaded here by JS -->
+                <div class="loading-state">
+                    <p>Memuat detail kegiatan...</p>
+                </div>
+            </div>
+        </main>
+
+        <footer id="footer"></footer>
+    </div>
+
+    <!-- Shared Main Script (Navbar/Footer) -->
+    <script type="module" src="/src/main.js"></script>
+    <!-- Page Specific Script -->
+    <script type="module" src="/src/detail-kegiatan.js"></script>
+</body>
+
+</html>

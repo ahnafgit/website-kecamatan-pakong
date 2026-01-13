@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kegiatan - Kecamatan Pakong</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <nav id="navbar"></nav>
+
+        <header class="hero">
+            <div class="container">
+                <h1>Kegiatan Kecamatan</h1>
+                <p class="subtitle">Dokumentasi dan Agenda Terbaru</p>
+            </div>
+        </header>
+
+        <main>
+            <!-- Recent Activities (List) -->
+            <section class="container" style="margin-bottom: var(--spacing-xl);">
+                <h2>Agenda Terbaru</h2>
+                <div class="activity-list">
+                    <!-- Activity Item 1 -->
+                    <div class="activity-card horizontal">
+                        <div class="activity-img">
+                            <img src="/images/kegiatan/apel-pagi.jpg" alt="Apel Pagi">
+                        </div>
+                        <div class="activity-content">
+                            <span class="activity-date">12 Januari 2026</span>
+                            <h3>Apel Pagi Rutin di Pendopo Kecamatan</h3>
+                            <p>Kegiatan apel pagi rutin yang diikuti oleh seluruh staf kecamatan untuk meningkatkan
+                                kedisiplinan dan koordinasi pelayanan.</p>
+                            <a href="detail-kegiatan.html?id=1" class="btn-text">Lihat Detail &rarr;</a>
+                        </div>
+                    </div>
+
+                    <!-- Activity Item 2 (Placeholder) -->
+                    <div class="activity-card horizontal">
+                        <div class="activity-img">
+                            <img src="/images/kegiatan/rapat-desa.jpg" alt="Rapat Koordinasi">
+                        </div>
+                        <div class="activity-content">
+                            <span class="activity-date">10 Januari 2026</span>
+                            <h3>Rapat Koordinasi Perangkat Desa</h3>
+                            <p>Musyawarah perencanaan pembangunan desa yang melibatkan seluruh kepada desa se-Kecamatan
+                                Pakong.</p>
+                            <a href="detail-kegiatan.html?id=2" class="btn-text">Lihat Detail &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gallery Section (Grid) -->
+            <section class="container" style="margin-bottom: var(--spacing-lg);">
+                <h2>Galeri Kegiatan</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="/images/kegiatan/apel-pagi.jpg" alt="Dokumentasi 1">
+                        <div class="gallery-overlay">
+                            <span>Apel Pagi</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="/images/kegiatan/apel-pagi.jpg" alt="Dokumentasi 2">
+                        <!-- Placeholder duplicate -->
+                        <div class="gallery-overlay">
+                            <span>Kunjungan Kerja</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="/images/kegiatan/apel-pagi.jpg" alt="Dokumentasi 3">
+                        <!-- Placeholder duplicate -->
+                        <div class="gallery-overlay">
+                            <span>Gotong Royong</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer"></footer>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
