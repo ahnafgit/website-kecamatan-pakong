@@ -3,7 +3,7 @@ export const kegiatanData = [
     id: 1,
     title: "Apel Pagi Rutin di Pendopo Kecamatan",
     date: "12 Januari 2026",
-    image: "/images/kegiatan/apel-pagi.jpg",
+    image: "images/kegiatan/apel-pagi.jpg",
     description: "Kegiatan apel pagi rutin yang diikuti oleh seluruh staf kecamatan untuk meningkatkan kedisiplinan dan koordinasi pelayanan.",
     content: `
       <p><strong>PAKONG</strong> – Kecamatan Pakong kembali melaksanakan rutinitas Apel Pagi setiap hari Senin. Kegiatan ini berlangsung khidmat di halaman Pendopo Kecamatan Pakong pada pukul 07.30 WIB, diikuti oleh seluruh Aparatur Sipil Negara (ASN) dan tenaga honorer di lingkungan pemerintahan kecamatan.</p>
@@ -26,7 +26,7 @@ export const kegiatanData = [
     id: 2,
     title: "Rapat Koordinasi Perangkat Desa",
     date: "10 Januari 2026",
-    image: "/images/kegiatan/rapat-desa.jpg",
+    image: "images/kegiatan/rapat-desa.jpg",
     description: "Musyawarah perencanaan pembangunan desa yang melibatkan seluruh kepada desa se-Kecamatan Pakong.",
     content: `
       <p><strong>PAKONG</strong> – Mengawali tahun anggaran 2026, Kecamatan Pakong menggelar Rapat Koordinasi (Rakor) bersama seluruh Kepala Desa dan perangkat desa se-Kecamatan Pakong. Bertempat di Aula Kecamatan, rapat ini bertujuan untuk menyamakan persepsi dan langkah strategis dalam pembangunan desa.</p>
@@ -48,7 +48,7 @@ export const kegiatanData = [
     id: 3,
     title: "Musrenbang Kecamatan Tahun 2026",
     date: "28 Januari 2026",
-    image: "/images/kegiatan/musrenbang.jpg",
+    image: "images/kegiatan/musrenbang.jpg",
     description: "Forum musyawarah perencanaan pembangunan tingkat kecamatan untuk menyepakati RKP Desa tahun rencana.",
     content: `
       <p><strong>PAKONG</strong> – Kecamatan Pakong telah melaksanakan Musyawarah Perencanaan Pembangunan (Musrenbang) tingkat kecamatan untuk penyusunan Rencana Kerja Pemerintah (RKP) Desa tahun 2027. Kegiatan ini dihadiri oleh berbagai elemen masyarakat, perwakilan desa, dan instansi terkait.</p>
