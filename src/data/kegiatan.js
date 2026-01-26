@@ -43,5 +43,24 @@ export const kegiatanData = [
 
       <p>Kegiatan diakhiri dengan sesi tanya jawab interaktif, di mana para Kepala Desa menyampaikan aspirasi dan kendala teknis di lapangan untuk dicarikan solusinya bersama.</p>
     `
+  },
+  {
+    id: 3,
+    title: "Musrenbang Kecamatan Tahun 2026",
+    date: "28 Januari 2026",
+    image: "/images/kegiatan/musrenbang.jpg",
+    description: "Forum musyawarah perencanaan pembangunan tingkat kecamatan untuk menyepakati RKP Desa tahun rencana.",
+    content: `
+      <p><strong>PAKONG</strong> – Kecamatan Pakong telah melaksanakan Musyawarah Perencanaan Pembangunan (Musrenbang) tingkat kecamatan untuk penyusunan Rencana Kerja Pemerintah (RKP) Desa tahun 2027. Kegiatan ini dihadiri oleh berbagai elemen masyarakat, perwakilan desa, dan instansi terkait.</p>
+
+      <p>Dalam forum ini, dibahas berbagai usulan prioritas pembangunan yang mencakup:</p>
+      <ul>
+        <li>Peningkatan infrastruktur jalan desa dan jembatan.</li>
+        <li>Program pemberdayaan ekonomi masyarakat melalui UMKM.</li>
+        <li>Peningkatan layanan kesehatan dan pendidikan.</li>
+      </ul>
+
+      <p>Camat Pakong berharap hasil Musrenbang ini dapat mengakomodasi aspirasi masyarakat dan terealisasi dengan baik pada tahun anggaran mendatang.</p>
+    `
   }
 ];
